@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUEvents</title>
+    <link rel="stylesheet" href="./RU_Events.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="RUEvents-favicon.png">
+</head>
+<body>
+    
+    <nav id="navLogo">
+        <div id="logo"> <img class="logo1" src="logo1.webp" alt="">
+         <h1>RU<span class="RUEvents">Events</span></h1></div>
+        
+         <ul class="navItems">
+          <div> <a href="./RU_EventsPayments.html"><li id="Payment"class="NavItems">Payment <div></div></li></a></div>
+           
+          <div id="Socials"> <li id="Reach-Us" class="NavItems">Reach Us <div  class="Menu">
+             <div class="socials-main"> <ul id="socials">
+                 <a href=" https://wa.me/+254711827972"> <li class="media"><img id="media-logo" src="./image.png" alt="WhatsApp.com"></li></a>
+                 <a href="https://x.com/VictorMuita2?t=wVyZX3h7RPwoBLF-IQYWkg&s=08"> <li class="media"><img id="media-logo" src="./xlogo.png" alt="X.com"></li></a>
+                 <a href="https://www.instagram.com/iam_victormuita?igsh=MXRneHE4MXd1NDVrMg=="> <li class="media"><img id="media-logo" src="./download (1).jpeg" alt="Instagram.com"></li></a>
+                 <a href="https://www.facebook.com/victor.muita.1?mibextid=ZbWKwL"> <li class="media"><img id="media-logo" src="./download.jpeg" alt="Facebook.com"></li></a>
+             
+             </ul></div></div>
+         </div>
+         <a href="http://127.0.0.1:3000/Riara.html/3_1Project/index.html"> <li id="Notifications" class="NavItems"> Home <div></div></li></a>
+           </ul> 
+        <div class="user1" id="user1"><span id="user1" class="material-symbols-outlined">person</span></div>
+       <p id="user1" class="user">Sign In</p>  
+     </nav>
+     <img class="Background" src="RU_EventsBG.png" alt="">
+    
+    <div class="events">
+        <h2><U>Key Moments</U></h2>
+     <div class="pastEvents"> <img class="eventImages" id="pastEvents" src="RUEventsImage1.jpg" alt=""><h2>Photo Desctiption</h2></div>
+     <div class="recentEvents"> <img class="eventImages" id="recentEvents" src="RUEventsImage3.jpg" alt=""> <h2>Photo Desctiption</h2></div>
+     <div class="featuredEvents"> <video class="eventImages" id="featuredEvents" src=""></video> <h2>No Recent Videos</h2></div>
+    </div><br><hr>
+    <div id="eventsOfTheYear" class="events">
+        <h2><u>Event Eye Catchers</u></h2>
+        <div class="pastEvents"> <img class="eventImages" id="pastEvents" src="IMG_0497.jpg" alt=""><h2>Photo Desctiption</h2></div>
+        <div class="recentEvents"> <img class="eventImages" id="recentEvents" src="" alt=""> <h2>Photo Desctiption</h2></div>
+        <div class="featuredEvents"> <img class="eventImages" id="featuredEvents" src="" alt=""><h2>Photo Desctiption</h2></div>
+       </div>
+       <footer>Copyright@riarauniversity.ac.ke_2024</footer>
+      
+      <div class="Form-container">
+               <!-- Login Form -->
+               <form id="loginForm" class="Login-Register">
+                
+                   <h2>Sign In</h2> <div class="detailsWrap">
+                   <div class="details">
+                       <span class="material-symbols-outlined">person</span>
+                       <input type="text" id="loginName" placeholder="Name">
+                   </div>
+                   <div class="details">
+                       <span class="material-symbols-outlined">mail</span>
+                       <input type="email" id="loginEmail" placeholder="Email">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="loginPassword" placeholder="Password">
+                   </div></div>
+                   <p>Don't have an account? <a href="#" id="toRegister">Register here</a></p>
+                   <div class="login-button">
+                       <button type="button" id="loginButton">Sign In</button>
+                   </div>
+               </form>
+       
+               <!-- Register Form -->
+               <form id="registerForm" class="Login-Register" style="display: none;">
+                   <h2>Register</h2>
+                   <div class="detailsWrap">
+                   <div class="details">
+                       <span class="material-symbols-outlined">person</span>
+                       <input type="text" id="registerName" placeholder="Full Name">
+                   </div>
+                   <div class="details">
+                       <span class="material-symbols-outlined">mail</span>
+                       <input type="email" id="registerEmail" placeholder="Email">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="registerPassword" placeholder="Password">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                   </div>
+                  </div>
+                   <p>Already have an account? <a href="#" id="toLogin">Sign in here</a></p>
+                   <div class="login-button">
+                       <button type="button" id="registerButton">Register</button>
+                   </div>
+               </form>
+           </div>
+           <script src="./script.js"></script>
+       
+       
+    
+    
+
+</body>
+</html>

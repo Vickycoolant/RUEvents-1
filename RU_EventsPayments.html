@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUEvents</title>
+    <link rel="stylesheet" href="./RU_Events.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="RUEvents-favicon.png">
+</head>
+<body>
+    
+    <nav id="navLogo">
+        <div id="logo"> <img class="logo1" src="logo1.webp" alt="">
+         <h1>RU<span class="RUEvents">Events</span></h1></div>
+        
+         <ul class="navItems">
+          <div> <a href="./RU_EventsPayments.html"><li id="Payment"class="NavItems">Payment <div></div></li></a></div>
+           
+          <div id="Socials"> <li id="Reach-Us" class="NavItems">Reach Us <div  class="Menu">
+             <div class="socials-main"> <ul id="socials">
+                 <a href=" https://wa.me/+254711827972"> <li class="media"><img id="media-logo" src="./image.png" alt="WhatsApp.com"></li></a>
+                 <a href="https://x.com/VictorMuita2?t=wVyZX3h7RPwoBLF-IQYWkg&s=08"> <li class="media"><img id="media-logo" src="./xlogo.png" alt="X.com"></li></a>
+                 <a href="https://www.instagram.com/iam_victormuita?igsh=MXRneHE4MXd1NDVrMg=="> <li class="media"><img id="media-logo" src="./download (1).jpeg" alt="Instagram.com"></li></a>
+                 <a href="https://www.facebook.com/victor.muita.1?mibextid=ZbWKwL"> <li class="media"><img id="media-logo" src="./download.jpeg" alt="Facebook.com"></li></a>
+             
+             </ul></div></div>
+         </div>
+         <a href="http://127.0.0.1:3000/Riara.html/3_1Project/index.html"> <li id="Notifications" class="NavItems"> Home <div></div></li></a>
+           </ul> 
+        <div class="user1" id="user1"><span id="user1" class="material-symbols-outlined">person</span></div>
+       <p id="user1" class="user">Sign In</p>  
+     </nav>
+     <img class="Background" src="RU_EventsBG.png" alt="">
+
+     <div class="payment">
+        <h2>Pay for your events here!</h2>
+        <h3>convinient and affordable</h3>
+        <div class="Method"> 
+            <div class="dropdown-events">
+                <h2> Select Events</h2>
+            </div>
+            <div class="checkbox">
+               <ul class="Destinations">
+                <input type="checkbox" id="Arusha" Name="Arusha">
+                <label for="event1" id="Arusha">Arusha Trip ..........................................60,000</label><br>
+
+                <input type="checkbox" id="hackathon" name="hackathon" >
+                <label for="event2" id="hackathon"> hackathon.............................................3,000</label><br>
+
+                <input type="checkbox" id="Ngong" name="Ngong" >
+                <label for="event3">Ngong hills hike....................................2,000</label><br>
+
+                <input type="checkbox" id="NrbNat" name="NrbNat" >
+                <label for="event4" id="NrbNat">Nairobi National Park............................2,000</label><br>
+
+            </div>
+            <h2>Select payment method</h2>
+            <div class="checkbox">
+                <ul class="Destinations">
+                 <input type="radio" id="Arusha" Name="Arusha">
+                 <label for="event1" id="Arusha">Bank</label><br>
+ 
+                 <input type="radio" id="hackathon" name="hackathon" >
+                 <label for="event2" id="hackathon"> Visa</label><br>
+ 
+                 <input type="radio" id="Ngong" name="Ngong" >
+                 <label for="event3">M-Pesa</label><br>
+ 
+             
+ 
+             </div>
+        </div>
+       
+     </div>
+   
+     <div class="footer"></div>  <footer>Copyright@riarauniversity.ac.ke_2024</footer></div> 
+
+      <div class="Form-container">
+               <!-- Login Form -->
+               <form id="loginForm" class="Login-Register">
+                
+                   <h2>Sign In</h2> <div class="detailsWrap">
+                   <div class="details">
+                       <span class="material-symbols-outlined">person</span>
+                       <input type="text" id="loginName" placeholder="Name">
+                   </div>
+                   <div class="details">
+                       <span class="material-symbols-outlined">mail</span>
+                       <input type="email" id="loginEmail" placeholder="Email">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="loginPassword" placeholder="Password">
+                   </div></div>
+                   <p>Don't have an account? <a href="#" id="toRegister">Register here</a></p>
+                   <div class="login-button">
+                       <button type="button" id="loginButton">Sign In</button>
+                   </div>
+               </form>
+
+       
+               <!-- Register Form -->
+               <form id="registerForm" class="Login-Register" style="display: none;">
+                   <h2>Register</h2>
+                   <div class="detailsWrap">
+                   <div class="details">
+                       <span class="material-symbols-outlined">person</span>
+                       <input type="text" id="registerName" placeholder="Full Name">
+                   </div>
+                   <div class="details">
+                       <span class="material-symbols-outlined">mail</span>
+                       <input type="email" id="registerEmail" placeholder="Email">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="registerPassword" placeholder="Password">
+                   </div>
+                   <div class="details">
+                       <i class="fa fa-key" style="font-size: 24px;"></i>
+                       <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                   </div>
+                  </div>
+                   <p>Already have an account? <a href="#" id="toLogin">Sign in here</a></p>
+                   <div class="login-button">
+                       <button type="button" id="registerButton">Register</button>
+                   </div>
+               </form>
+           </div>
+           <script src="./script.js"></script>
+       
+       
+    
+    
+
+</body>
+</html>

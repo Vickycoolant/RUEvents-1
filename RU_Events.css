@@ -1,0 +1,398 @@
+body{
+    position: absolute;
+    margin: 0px;
+    background-color: rgb(105, 22, 213) ;
+    
+}
+.logo1{
+
+    position: absolute;
+    top: 0.5rem;
+    left: 3.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    box-shadow: 3px black;
+    display: inline-block;
+}
+h1{
+    font-size: 35px;
+    position: absolute;
+    top: 3.3rem;
+    left: 1rem;
+    color: aliceblue;
+}
+ .RUEvents{
+    color: rgb(231, 29, 231);
+ }
+#navLogo{
+    opacity: 0.9;
+    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(105, 22, 213);
+   
+
+}
+li.navItems{
+    position: relative;
+    display: flex;
+    display: inline-block;
+    width: 70vw;
+    left: 20vw;
+    top: 3rem;
+   
+}
+.NavItems {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-size: larger;
+   
+} 
+.socials-main {
+    z-index: 103;
+    position:relative;
+    height:100% ;
+    width: 80px;
+    box-shadow:0 15px  20px black;
+    background-color: rgb(105, 22, 213);
+    text-align: left;
+    justify-content: left;
+    text-decoration: none;
+   display: none;
+   transition-duration:2000ms;
+
+}
+.NavItems:hover .socials-main {
+    display:block ;
+    
+}
+
+.NavItems#Reach-Us{
+   
+   position: relative;
+   display: inline-block;
+}
+
+
+ul li{
+    margin-left: 2rem;
+}
+#Payment{
+    display: inline-block;
+    position:absolute;
+    top: 6rem;
+    left: 20rem;
+}
+#Reach-Us{
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    left: 35rem;
+}
+#Notifications{
+    display: inline-block;
+    position: absolute;
+    top: 6rem;
+    left: 55rem;
+}
+li.media{
+ background-color:transparent;
+ margin-bottom: 5px;
+ position: relative;
+ left: -4rem;
+ display: flex;
+}
+#media-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    display: flex;
+}
+#media-logo :hover{
+    height: 37px;
+    width: 37px;
+}
+ li.NavItems{
+    position: relative;
+  
+
+ }
+.NavItems ::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: rgb(162, 188, 222);
+    display: block;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    bottom: -.2rem;
+    opacity: 0;
+    transition: all .5s;
+    
+}
+.NavItems:hover ::after {
+    content: "";
+   opacity: 0.99;
+}
+
+nav #navLog0{
+    position:fixed;
+}
+ 
+
+  
+
+.profile{
+    position: absolute;
+    left:90vw ;
+    top: 3rem;
+    height: 40px;
+    width: 40px;
+}
+a{
+    color: rgb(238, 239, 241);
+}
+#profilePhoto{
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.material-symbols-outlined{
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+    color: aliceblue;
+    
+}
+.user1{
+    position: absolute;
+    right: 1.3rem;
+    top: 3.5rem;
+    color: white;
+}
+.user{
+    position: absolute;
+    right: 2.7rem;
+    top: 4.5rem;
+    color: white;
+}
+
+.backGround{
+    background-size: cove
+    width: 10%
+
+}
+.events div{
+    position: relative;
+    display:inline-block;
+    height: 50vh;
+    width:30vw ;
+    background-color:rgb(169, 49, 169);
+    left: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: .5rem;
+    z-index: 99;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    padding: 5px;
+    opacity: ;
+   
+}
+.events div :hover{
+    height: 47vh;
+    width: 27vw;
+    transition: 500ms;
+}
+.events{
+    position: absolute;
+    top:8rem ;
+}
+
+.eventImages{
+    height: 40vh;
+    width: 28vw;
+    background-color: rgb(216, 225, 225);
+    border-radius: 10px;
+    
+}
+
+#eventsOfTheYear{
+    top: 38rem;
+}
+h2{
+    text-align: center;
+    color: rgb(198, 234, 234);
+}
+h2 u{
+    color: rgb(236, 240, 240);
+    font-size: larger;
+}
+.Login-Register{
+    position:;
+    display: none;
+    position: absolute;
+    height: 100;
+    width:30vw ;
+    background-color: rgb(126, 13, 212);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(51, 9, 51);
+    z-index: 99;
+    top:30vh ;
+    left: 37vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+   padding-bottom: 1rem;
+   opacity: 0.9;
+
+}
+ form#loginForm.Login-Register{
+    position:fixed;
+ }
+#formWrapper {
+  
+    transform: translate(-50%, -50%);
+    z-index: 102;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+i.fa.fa-close::before{
+  
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 20px;
+}
+
+ div .detailsWrap{
+    position: relative;
+    justify-content: center;
+    left: 2.5rem;
+    text-align: center;
+}
+
+div.details{
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 2rem;
+    padding-bottom: 3rem;
+    height: 15px;
+}
+  .material-symbols-outlined{
+    position: relative;
+    right: 2rem;
+    top: .3rem;
+
+
+  }
+input{
+    
+   color: aliceblue;
+   outline: 0;
+   border: 0;
+   background-color: transparent;
+   border-bottom: 3px solid rgb(232, 228, 228);
+}
+
+i{
+    margin-right: 2rem;
+    margin-left: -2rem;
+    
+}
+
+.login-button{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+   
+}
+    
+.login-button button{
+    opacity: 0.99;
+    background-color:rgb(105, 22, 213);
+    color: white;
+    height: 2rem;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: scale 1s;
+    cursor: pointer;
+}
+
+h2, u{ position: relative;
+    text-shadow: 10px 5px 50px  rgb(17, 16, 16);
+    z-index: 99;
+}
+footer{
+    position:absolute;
+ top: 70rem;
+    z-index: 101;
+    background-color: aliceblue;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font: bolder;
+}
+.payment{
+    position:absolute ;
+    top: 10rem;
+    left:30vw ;
+  height: 100;
+  width: 40vw;
+  background-color: rgb(100, 5, 172);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 0 20px black;
+ 
+ 
+
+}
+.Method{
+    position: relative;
+    height:60vh ;
+    width: 37vw;
+    background: rgb(146, 5, 174);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: .3rem;
+    color: rgb(251, 240, 240);
+    opacity: 1;
+    
+
+}
+
+
+.checkbox{
+    position: relative;
+    height:30%;
+    width: 100%;
+    background:transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: left;
+    text-align: left;
+    z-index: 102;
+    margin-left: 0px;
+    display: flex;
+   
+}
